@@ -70,7 +70,7 @@ void Connectivity::sendStatus(){
  {
     String cTopic = topic;
     String cPayload = bytes;
-    Serial.print("messageReceived: ");
+    Serial.print("messageReceived on topic: ");
     Serial.print(cTopic);
     Serial.print(" payload: ");
     Serial.println(cPayload);

@@ -1,6 +1,6 @@
 # Basic example of using arduino-mqtt in a class
 
-If you want to progress beyond a single code file for your MQTT project, you'll likely need to implement it as part of a larger codebase. This project will help you understand how to use the more advanced features of the great [https://github.com/256dpi/arduino-mqtt](arduino-mqtt by 256dpi).
+If you want to progress beyond a single code file for your MQTT project, you'll likely need to implement it as part of a larger codebase. This project will help you understand how to use the more advanced features of the great [arduino-mqtt by 256dpi](https://github.com/256dpi/arduino-mqtt).
 
 In the Connectivity-class, you'll find features to connect to wifi, connect to the test.mosquitto.org broker, subscribe for a topic, print out messages to the topic, send status messages and stay connected. To use the example, you'll have to edit the wifi settings in Connectivity.h. You can also change the MQTT details here if you want to a different mqtt broker/server.
 
